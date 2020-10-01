@@ -8,3 +8,14 @@ rancher_build:
     RANCHER_PROJECT_ID: 'c-qyxkj:p-hn2z5'
     RANCHER_URL: 'https://rancher.domain.tld'
     RANCHER_WORKLOAD: 'workload'
+
+app:
+  build:
+    image: dkarakay/rancher
+    dockerfile: Dockerfile
+  environment:
+    RANCHER_BEARER_TOKEN: 'token-xgskl:n45p7tmd47t9lfzh7xl8rw6rvtrfzzxrtdr6qvjg27r4sjcxvzss7d'
+    RANCHER_NAMESPACE: 'namespace'
+    RANCHER_PROJECT_ID: 'c-qyxkj:p-hn2z5'
+    RANCHER_URL: 'https://rancher.domain.tld'
+    RANCHER_WORKLOAD: 'workload'
