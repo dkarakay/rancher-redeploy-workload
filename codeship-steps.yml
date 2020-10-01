@@ -7,4 +7,4 @@
 - name: rancher_build
   tag: master
   service: rancher_build
-  command: echo "Deploy here!"
+  command: echo "Deploy here2!"
