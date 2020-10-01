@@ -1,4 +1,10 @@
-- name: rancher_build_step
+- type: parallel
+  name: rancher_build
+  steps:
+    - service: rancher_build
+      command: printenv
+    - service: rancher_build
+- name: rancher_build
   tag: master
   service: rancher_build
   command: echo "Deploy here!"
