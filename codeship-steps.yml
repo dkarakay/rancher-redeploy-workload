@@ -1,4 +1,4 @@
 - name: rancher_build
   tag: latest
-  service: rancher_build
+  service: app
   command: echo "rancher_build done"
